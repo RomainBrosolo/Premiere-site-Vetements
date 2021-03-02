@@ -1,0 +1,141 @@
+<!doctyoe html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reyes x Paris</title>
+<link rel="stylesheet" href="feuillestyle_connection+validation_compte.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+</head>
+<body>
+  <div id="global">
+    <!-- <p>Paragraphe global</p> -->
+    <div class="header">
+      <div class="banniere">
+      <a href="index.html"><img src="images/banniere.png" alt="banniere" class="photoentete"/></a>
+      </div>
+
+      <ul id="menu">  
+        <li><a href="panier.html" class="icon"><i class="fa fa-shopping-cart"></i><span>Panier (3)</span></a></li>
+        <li><a href="connection.html" class="icon"><i class="fa fa-users"></i><span>Se connecter</span></a></li>
+        <li><a href="inscription.html" class="icon"><i class="fa fa-reddit"></i><span>S'inscrire</span></a></li>
+      </ul> 
+    </div>
+    <div class="menu-bar">
+      <nav>
+        <ul>
+          <li class="fond_accueil"><a href="index.html"><i class="fa fa-home"></i>Accueil</a></li>
+          <li><i class="fa fa-male"></i>Homme
+            <div class="sub-menu-1">
+              <ul>
+                <li class="hover-me"><a href="#">Haut</a><i class="fa fa-angle-right"></i>
+                  <div class="sub-menu-2">
+                    <ul>
+                      <li><a href="t-shirt.html">Tee shirts</a></li>
+                      <li><a href="chemise.html">Chemises</a></li>
+                      <li><a href="sweat.html">Sweats-Hoodies</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="hover-me"><a href="#">Bas</a><i class="fa fa-angle-right"></i>
+                  <div class="sub-menu-2">
+                    <ul>
+                      <li><a href="jean.html">Jeans</a></li>
+                      <li><a href="pantalon.html">Pantalon</a></li>
+                      <li><a href="short.html">Shorts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="maillot.html">Maillots de bain</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><i class="fa fa-shopping-bag"></i>Accessoires
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="casquette.html">Casquettes</a></li>
+                <li><a href="sacoche.html">Sacs-Sacoches</a></li>
+                <li><a href="ceinture.html">Ceintures</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><i class="fa fa-globe"></i>Univers
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="histoire_marque.html">Qui sommes nous ?</a></li>
+                <li><a href="magasin.html">Nos magasins ?</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="fond_accueil"><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="banniere_cote1">
+      <!-- <h1>Pub</h1> -->
+    </div>
+    <div id="banniere_cote2">
+      <!-- <h1>Recherche</h1> -->
+    </div>
+    <div class="contenu">
+      <div id="titre">
+        </br>
+        <h1>Ajout d'un article dans le panier</h1>
+      </div>
+      <div id="barre"></div>
+      <div id="texte">
+        <br>
+      </div>
+      <div id="validation_compte">
+        <h1> Un article s'est ajouté à votre panier !</h1>
+        <br>
+        <form method="post" action="index.html">
+          <input type="submit" value="Retour à l'accueil" id="submit">
+        </form>
+        <br>
+        <form method="post" action="javascript:history.go(-1)">
+          <input type="submit" value="Retour à l'article" id="submit">
+        </form>
+      </div>
+      <div id="logo_validation">
+          <img src="images/valide.png" height="250" width="250">
+      </div>
+    </div>
+    <div id="footer">
+      <section class="g1">
+        <h3>REYES X PARIS</h3>
+        <a href="histoire_marque.html">> Qui sommes-nous?</a></br>
+        <a href="magasin.html">> Nos magasins</a></br>
+        <a href="inscription.html">> S'inscrire</a></br>
+        <a href="connection.html">> Se connecter</a>
+      </section>
+
+      <section class="g2">
+        <h3>SERVICE CLIENT</h3>
+        <a href="images/guide-taille2.png" download >Guide des tailles</a></br>
+        <a href="contact.html">Nous contacter</a></br>
+        <a href="#">FAQ (en cours)</a>
+      </section>
+      
+      <section class="g3">
+        <h3>A PROPOS</h3>
+        <a href="sweat.html">Nos sweats</a></br>
+        <a href="t-shirt.html">Les t-shirts</a></br>
+        <a href="pantalon.html">Nos pantalons</a></br>
+        <a href="short.html">Les shorts</a>
+      </section>
+
+      <section class="g4">
+       <p>Restez informé de nos bons plans et nouveautés !</p><br>
+       <form>
+         <label for="mail">Entrez votre adresse mail :</label>
+         <input type="text" name="mail" id="mail"><br><br>
+         <input type="submit" value="Soumettre">
+       </form>
+      </section>
+      <img src="images/logo.png">
+    </div>
+  </div>
+</body>
+</html>
+</body>

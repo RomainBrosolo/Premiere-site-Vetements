@@ -1,0 +1,226 @@
+<!doctyoe html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reyes x Paris</title>
+<link rel="stylesheet" href="feuillestyle_panier.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+</head>
+<body>
+  <div id="global">
+    <!-- <p>Paragraphe global</p> -->
+    <div class="header">
+      <div class="banniere">
+      <a href="index.html"><img src="images/banniere.png" alt="banniere" class="photoentete"/></a>
+      </div>
+
+      <ul id="menu">  
+        <li><a href="panier.html" class="icon"><i class="fa fa-shopping-cart"></i><span>Panier (3)</span></a></li>
+        <li><a href="connection.html" class="icon"><i class="fa fa-users"></i><span>Se connecter</span></a></li>
+        <li><a href="inscription.html" class="icon"><i class="fa fa-reddit"></i><span>S'inscrire</span></a></li>
+      </ul> 
+    </div>
+    <div class="menu-bar">
+      <nav>
+        <ul>
+          <li class="fond_accueil"><a href="index.html"><i class="fa fa-home"></i>Accueil</a></li>
+          <li><i class="fa fa-male"></i>Homme
+            <div class="sub-menu-1">
+              <ul>
+                <li class="hover-me"><a href="#">Haut</a><i class="fa fa-angle-right"></i>
+                  <div class="sub-menu-2">
+                    <ul>
+                      <li><a href="t-shirt.html">Tee shirts</a></li>
+                      <li><a href="chemise.html">Chemises</a></li>
+                      <li><a href="sweat.html">Sweats-Hoodies</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="hover-me"><a href="#">Bas</a><i class="fa fa-angle-right"></i>
+                  <div class="sub-menu-2">
+                    <ul>
+                      <li><a href="jean.html">Jeans</a></li>
+                      <li><a href="pantalon.html">Pantalon</a></li>
+                      <li><a href="short.html">Shorts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="maillot.html">Maillots de bain</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><i class="fa fa-shopping-bag"></i>Accessoires
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="casquette.html">Casquettes</a></li>
+                <li><a href="sacoche.html">Sacs-Sacoches</a></li>
+                <li><a href="ceinture.html">Ceintures</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><i class="fa fa-globe"></i>Univers
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="histoire_marque.html">Qui sommes nous ?</a></li>
+                <li><a href="magasin.html">Nos magasins ?</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="fond_accueil"><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="banniere_cote1">
+      <!-- <h1>Pub</h1> -->
+    </div>
+    <div id="banniere_cote2">
+      <!-- <h1>Recherche</h1> -->
+    </div>
+    <div class="contenu">
+      <div id="titre">
+        </br>
+        <h1>PANIER</h1>
+      </div>
+      <div id="barre"></div>
+      <div class="div-haut">
+        <p class="article">ARTICLE</p>
+        <p class="quantité">QUANTITÉ</p>
+        <p class="prix">PRIX</p>
+        <p class="prix_total">PRIX TOTAL</p>
+      </div>
+      <div class="article_panier">
+        <div class="image-article">
+           <img src="images/sweats/sweat1.png" height="190" width="150">
+        </div>
+        <div class="détail-article">
+          <h3><u>SWEAT À CAPUCHE OVERSIZE BASIQUE</u></h3>
+          <br>
+          <p class="p2">Réf : 1920038_BK-FL_XL</p>
+          <br>
+          <p class="rouge">-50%</p>
+          <br>
+          <p><b>Couleur:</b> ROUGE</p>
+          <br>
+          <p><b>Taille:</b> M</p>
+        </div>
+        <div class="quantité-article">
+          <input type="number" name="quantité" id="quantité" min="1" max="10" value="1">
+        </div>
+        <div class="prix-article">
+          <h3 class="rouge">29.98€</h3><br>
+          <h3><s>59.95€</s></h3>
+        </div>
+        <div class="prix-total">
+          <h3>29.98€</h3>
+        </div>
+        <div class="supprimer-article">
+          <i class="fa fa-trash"></i> Supprimer
+        </div>
+      </div>
+      <div class="article_panier">
+        <div class="image-article">
+           <img src="images/chemises/chemise1.png" height="190" width="150">
+        </div>
+        <div class="détail-article">
+          <h3><u>CHEMISE A CARREAUX BASIQUE</u></h3>
+          <br>
+          <p class="p2">Réf : 1989033_BK-FL_XL</p>
+          <br>
+          <p class="rouge">-40%</p>
+          <br>
+          <p><b>Couleur:</b> NOIR ET BLANC</p>
+          <br>
+          <p><b>Taille:</b> M</p>
+        </div>
+        <div class="quantité-article">
+          <input type="number" name="quantité" id="quantité" min="1" max="10" value="1">
+        </div>
+        <div class="prix-article">
+          <h3 class="rouge">17.98€</h3><br>
+          <h3><s>29.98€</s></h3>
+        </div>
+        <div class="prix-total">
+          <h3>17.98€</h3>
+        </div>
+        <div class="supprimer-article">
+          <i class="fa fa-trash"></i> Supprimer
+        </div>
+      </div>
+      <div class="article_panier">
+        <div class="image-article">
+           <img src="images/jeans/jean1.png" height="190" width="150">
+        </div>
+        <div class="détail-article">
+          <h3><u>JEAN AVEC BANDES BLANCHES</u></h3>
+          <br>
+          <p class="p2">Réf : 1956321_BK-FL_XL</p>
+          <br>
+          <p class="rouge">-50%</p>
+          <br>
+          <p><b>Couleur:</b> GRIS</p>
+          <br>
+          <p><b>Taille:</b> M</p>
+        </div>
+        <div class="quantité-article">
+          <input type="number" name="quantité" id="quantité" min="1" max="10" value="1">
+        </div>
+        <div class="prix-article">
+          <h3 class="rouge">19.98€</h3><br>
+          <h3><s>39.95€</s></h3>
+        </div>
+        <div class="prix-total">
+          <h3>19.98€</h3>
+        </div>
+        <div class="supprimer-article">
+          <i class="fa fa-trash"></i> Supprimer
+        </div>
+      </div>
+      <div class="poursuivre-achat">
+        <a href="javascript:history.go(-1)"><p>POURSUIVRE MES ACHATS</p></a>
+      </div>
+      <div class="total-commande">
+        <h2>Sous-total &emsp;67.94€</h2>
+        <br>
+        <div class="paiement">PAIEMENT</div>
+      </div>
+    </div>
+    <div id="footer">
+      <section class="g1">
+        <h3>REYES X PARIS</h3>
+        <a href="http://www.touraineloirevalley.com/">> Qui sommes-nous?</a></br>
+        <a href="http://www.ot-valdelindre.com/">> Nos magasins</a></br>
+        <a href="http://www.ot-valdelindre.com/">> Autre</a></br>
+        <a href="http://www.ot-valdelindre.com/">> Autre</a>
+      </section>
+
+      <section class="g2">
+        <h3>SERVICE CLIENT</h3>
+        <a href="http://www.vinci-closluce.com/fr">Guide des tailles</a></br>
+        <a href="http://www.grottes-savonnieres.com/">Mon compte</a></br>
+        <a href="http://www.ot-valdelindre.com/">Nous contacter</a></br>
+        <a href="http://www.ot-valdelindre.com/">FAQ</a>
+      </section>
+
+      <section class="g3">
+        <h3>A PROPOS</h3>
+        <a href="http://www.legrandhoteltours.com/">Cartes cadeaux</a></br>
+        <a href="http://www.ot-valdelindre.com/">Programme de fidélité</a></br>
+        <a href="http://www.ot-valdelindre.com/">Parrainage</a></br>
+        <a href="http://www.ot-valdelindre.com/">Expéditions et retours</a>
+      </section>
+
+      <section class="g4">
+       <p>Restez informé de nos bons plans et nouveautés !</p><br>
+       <form>
+         <label for="mail">Entrez votre adresse mail :</label>
+         <input type="text" name="mail" id="e-mail"><br><br>
+         <input type="submit" value="Soumettre">
+       </form>
+      </section>
+      <img src="images/logo.png">
+    </div>
+  </div>
+</body>
+</html>
+</body>
